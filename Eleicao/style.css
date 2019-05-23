@@ -1,0 +1,124 @@
+header{
+  background-color: #000000;
+  padding: 200px 0;
+  background-image: url("img/pexels-photo-546819.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: whitesmoke;
+  padding: 140px 100px 140px 100px;
+  text-align: justify;
+}
+
+li{
+  margin-bottom: 8px;
+}
+
+
+.first-section{
+  background-color: white;
+}
+.section {
+  padding: 60px 0 40px;
+}
+
+.first-section img {
+  margin-bottom: 35px;
+}
+
+@media (min-width: 768px) {
+  .first-section img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .first-section img {
+    margin-bottom: 0;
+  }
+}
+
+
+@media (min-width: 576px){
+   h1{
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 576px) {
+  .section {
+    padding: 100px 0;
+  }
+}
+
+@media (min-width: 576px){
+  header{
+    padding: 200px 0;
+  }
+}
+
+
+.second-section{
+  background-color: #FBFBFB;
+  
+}
+
+
+.second-section img{
+  height: 75px;
+  width: 75px;
+  margin: 25px 0 10px;
+}
+
+.second-section p{
+  color: #9DA2A6;
+}
+
+.nav-item{
+  margin: 10px 16px;
+}
+
+.navbar-brand img{
+  height: 61px;
+  width: 135px;
+  margin-right: 8px;
+}
+
+.third-section{
+  background-color: white;
+}
+
+.third-section img{
+  margin-top: 35px;
+  height: ;
+  width: ;
+}
+
+@media (min-width: 768px) {
+  .third-section img {
+    margin-top: 0;
+  }
+}
+
+.fourth-section{
+  background-color: #F0F8FF;
+  background-image: url("img/User.svg");
+  background-repeat: repeat;
+  background-size: 292px 192px;
+  
+}
+
+
+
+footer{
+  
+  background-color: white;
+  padding: 35px 0;
+  
+}
+
+.footer-logo{
+  height: 22px;
+  width: 22px;
+  margin-bottom: 3px;
+}

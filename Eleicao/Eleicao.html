@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>dAPP Eleição</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+</head>
+<body class="container jumbotron">
+
+
+  <h1 class="display-4">Por um Brasil Melhor</h1>
+  <hr class="my-4">
+  <p class="lead">Esse é um exemplo de um sistema de eleição prático e transparente, utilizando a plataforma Ethereum.</p>
+  <div class="table-responsive">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Candidatos</th>
+          <th>Votos</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fernando Haddad - PT</td>
+          <td id="candidato-1"></td>
+        </tr>
+        <tr>
+          <td>Jair Bolsonaro - PSL</td>
+          <td id="candidato-2"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <input type="text" class="col-sm-2 col-form-label" id="candidato" placeholder="Nome do candidato..."/>
+  <a href="#" onclick="votarNoCandidato()" class="btn btn-success">Votar</a>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="web3.min.js"></script>
+<script src="Eleicao.js"></script>
+</html>
